@@ -41,3 +41,10 @@ def sum_array(array)
   end
   return sum
 end
+
+def add_s(array) 
+  array.each do |x|
+    if x != "feet"
+      x = x +"s"
+  end
+end
