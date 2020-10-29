@@ -43,7 +43,7 @@ def sum_array(array)
 end
 
 def add_s(array) 
-  array.each do |x|
+  array.map do |x|
     if x != "feet"
       x = x +"s"
     end
